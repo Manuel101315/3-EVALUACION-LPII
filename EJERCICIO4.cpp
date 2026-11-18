@@ -28,7 +28,7 @@ int leer(int min, int max){
 	do{
 		while (!(cin >> v)) {
 			cin.clear();
-			cin.ignore(1000, '\n'); // <-- Corrección: Se cambió la coma ',' por un punto '.'
+			cin.ignore(1000, '\n'); 
 		}
 	} while (v < min || v > max);
 	return v;
