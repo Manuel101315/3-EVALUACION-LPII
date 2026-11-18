@@ -1,3 +1,7 @@
+//Realice un minijuego: dibuje con gotoxy y bucles en rectangulo de 36*14 caracteres, una meta * en una pocision fija dentro de el 
+//y un personaje p que se mueve con  W/A/S/D (mayusculas o minusculas usando getch, borrando su pocision anterior y sin atravesar los bordes.
+//Cuandi el personaje llegue a la meta , muestre GANASTE! y termina el jeugo.La tecla ESC tambein termian el programa
+
 #include <iostream>
 #include <windows.h>
 
